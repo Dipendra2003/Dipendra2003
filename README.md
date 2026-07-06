@@ -72,7 +72,7 @@
 <br/>
 
 <div align="center">
-  <img src="assets/waves.svg" alt="Waves" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%" />
 </div>
 
 <br/>
@@ -236,7 +236,7 @@
 <br/>
 
 <div align="center">
-  <img src="assets/waves.svg" alt="Waves" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%" />
 </div>
 
 <br/>
@@ -290,6 +290,136 @@
   <a href="https://github.com/Dipendra2003">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dipendra2003&theme=tokyonight&background=0f172a&ring=38bdf8&fire=c084fc&currStreakLabel=c084fc&sideLabels=94a3b8&hide_border=true" alt="GitHub Streak" />
   </a>
+</div>
+
+<br/>
+
+<!-- ==========================================
+     LICENSE
+     ========================================== -->
+
+<div align="center">
+
+## 📄 License
+
+<img src="assets/divider.svg" alt="Divider" width="60%" />
+
+<br/>
+<br/>
+
+This project is licensed under the **MIT License**.
+
+You are free to:
+
+✅ Use · ✅ Modify · ✅ Distribute · ✅ Fork · ✅ Create commercial or personal projects
+
+while preserving the original copyright notice and license.
+
+If you use this repository or any part of it, attribution is appreciated.
+
+**Copyright © 2026 Dipendra Kumar**
+
+For more details, see the [LICENSE](LICENSE) file.
+
+</div>
+
+<br/>
+
+<!-- ==========================================
+     SUPPORT
+     ========================================== -->
+
+<div align="center">
+
+## ❤️ Support
+
+<img src="assets/divider.svg" alt="Divider" width="60%" />
+
+<br/>
+<br/>
+
+If you found this repository useful, consider:
+
+⭐ **Starring** the repository · 🍴 **Forking** the project · 🤝 **Contributing** improvements
+
+🐛 **Reporting** issues · 💡 **Sharing** feedback
+
+Every contribution helps make this project better.
+
+</div>
+
+<br/>
+
+<!-- ==========================================
+     CONTACT
+     ========================================== -->
+
+<div align="center">
+
+## 📬 Contact
+
+<img src="assets/divider.svg" alt="Divider" width="60%" />
+
+<br/>
+<br/>
+
+**Author: Dipendra Kumar**
+
+<br/>
+
+<a href="mailto:dipendrak299@gmail.com"><img src="https://img.shields.io/badge/Email-dipendrak299%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://portfolio-dipendra.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-dipendra-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/dipendra-kumar-b077b9286/"><img src="https://img.shields.io/badge/LinkedIn-Dipendra_Kumar-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/Dipendra2003"><img src="https://img.shields.io/badge/GitHub-Dipendra2003-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+
+</div>
+
+<br/>
+
+<!-- ==========================================
+     DISCLAIMER
+     ========================================== -->
+
+<div align="center">
+
+## ⚠️ Disclaimer
+
+<img src="assets/divider.svg" alt="Divider" width="60%" />
+
+<br/>
+<br/>
+
+This project is provided for **educational, research, and portfolio purposes**.
+
+While every effort has been made to ensure reliability and correctness, **no warranty is provided**.
+
+Use this project at your own discretion.
+
+</div>
+
+<br/>
+
+<!-- ==========================================
+     BUILT WITH PASSION
+     ========================================== -->
+
+<div align="center">
+
+## 💙 Built with Passion
+
+<img src="assets/divider.svg" alt="Divider" width="60%" />
+
+<br/>
+<br/>
+
+Designed, Developed, and Maintained by
+
+**Dipendra Kumar**
+
+Full Stack Developer • AI Enthusiast • Software Engineering Student
+
+© 2026 Dipendra Kumar. Licensed under the MIT License.
+
 </div>
 
 <br/>

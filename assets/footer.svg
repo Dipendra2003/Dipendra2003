@@ -1,37 +1,72 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 150">
   <defs>
-    <linearGradient id="footer-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#020617" />
-      <stop offset="50%" stop-color="#1e1b4b" />
-      <stop offset="100%" stop-color="#020617" />
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#010409" />
     </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#bd56eb" />
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.04" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
   </defs>
+
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&amp;display=swap');
-    .text { font-family: 'Outfit', sans-serif; font-size: 16px; fill: #cbd5e1; text-anchor: middle; font-weight: 600; }
-    .subtext { font-family: 'Outfit', sans-serif; font-size: 14px; fill: #94a3b8; text-anchor: middle; font-weight: 400; }
-    .heart { fill: #ef4444; animation: beat 1s infinite; transform-origin: center; }
-    .star { fill: #eab308; animation: spin 4s linear infinite; transform-origin: center; }
-    @keyframes beat {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.3); }
-    }
-    @keyframes spin {
-      100% { transform: rotate(360deg); }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+    
+    .motto { font-family: 'Inter', sans-serif; font-size: 22px; font-weight: 700; fill: #f8fafc; text-anchor: middle; letter-spacing: 1px; }
+    .subtext { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 500; fill: #8b949e; text-anchor: middle; }
+    
+    .node { animation: pulse-node 4s ease-in-out infinite alternate; }
+    @keyframes pulse-node {
+      0% { opacity: 0.2; r: 2px; }
+      100% { opacity: 0.8; r: 4px; }
     }
   </style>
-  <rect width="800" height="150" fill="url(#footer-grad)" rx="20" />
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" rx="16" />
+  <rect width="100%" height="100%" fill="url(#grid)" rx="16" />
   
-  <g transform="translate(400, 65)">
-    <text class="text" x="-75" y="5">Designed &amp; Built with</text>
-    
-    <!-- Heart Icon -->
-    <g transform="translate(25, -6)">
-      <path class="heart" d="M0,4.5 C0,4.5 -1.5,1.5 -4,1.5 C-6.5,1.5 -8.5,3.5 -8.5,6 C-8.5,10.5 0,16 0,16 C0,16 8.5,10.5 8.5,6 C8.5,3.5 6.5,1.5 4,1.5 C1.5,1.5 0,4.5 0,4.5 Z" />
-    </g>
-    
-    <text class="text" x="90" y="5">by Dipendra</text>
+  <!-- Glowing Top Border -->
+  <rect x="0" y="0" width="100%" height="3" fill="url(#accent-grad)" rx="1.5" />
+  <rect x="0" y="0" width="100%" height="3" fill="url(#accent-grad)" filter="url(#glow)" opacity="0.6"/>
+
+  <!-- Background Tech Nodes -->
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <line x1="150" y1="50" x2="250" y2="90" />
+    <line x1="250" y1="90" x2="180" y2="120" />
+    <line x1="650" y1="40" x2="580" y2="80" />
+    <line x1="580" y1="80" x2="680" y2="110" />
   </g>
   
-  <text class="subtext" x="400" y="105">© 2026 Dipendra Kumar. All Rights Reserved.</text>
+  <!-- Animated Nodes -->
+  <circle cx="150" cy="50" fill="#58a6ff" class="node" style="animation-delay: 0s;"/>
+  <circle cx="250" cy="90" fill="#818cf8" class="node" style="animation-delay: 1s;"/>
+  <circle cx="180" cy="120" fill="#bd56eb" class="node" style="animation-delay: 2s;"/>
+  <circle cx="650" cy="40" fill="#bd56eb" class="node" style="animation-delay: 0.5s;"/>
+  <circle cx="580" cy="80" fill="#818cf8" class="node" style="animation-delay: 1.5s;"/>
+  <circle cx="680" cy="110" fill="#58a6ff" class="node" style="animation-delay: 2.5s;"/>
+
+  <!-- Center Content -->
+  <g transform="translate(400, 70)">
+    <text class="motto" x="0" y="0">
+      Code <tspan fill="#58a6ff" filter="url(#glow)">•</tspan> Build <tspan fill="#bd56eb" filter="url(#glow)">•</tspan> Innovate
+    </text>
+    <text class="subtext" x="0" y="30">© 2026 Dipendra Kumar. All Rights Reserved.</text>
+  </g>
 </svg>

@@ -1,23 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 40">
   <defs>
-    <linearGradient id="div-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#38bdf8" />
-      <stop offset="50%" stop-color="#c084fc" />
-      <stop offset="70%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    <linearGradient id="line-grad-left" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
+    <linearGradient id="line-grad-right" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
   </defs>
+
+  <!-- Animated Center Nodes -->
   <style>
-    .glow-line { animation: pulse 2s ease-in-out infinite alternate; }
-    @keyframes pulse {
-      0% { opacity: 0.6; }
-      100% { opacity: 1; }
+    .pulse { animation: pulse-anim 2s ease-in-out infinite alternate; transform-origin: center; }
+    @keyframes pulse-anim {
+      0% { transform: scale(0.8); opacity: 0.7; }
+      100% { transform: scale(1.2); opacity: 1; }
     }
   </style>
-  <rect x="100" y="8" width="600" height="4" fill="url(#div-grad)" rx="2" class="glow-line" filter="url(#glow)"/>
+
+  <g transform="translate(400, 20)">
+    <!-- Left Line -->
+    <rect x="-350" y="-1.5" width="310" height="3" fill="url(#line-grad-left)" rx="1.5"/>
+    
+    <!-- Right Line -->
+    <rect x="40" y="-1.5" width="310" height="3" fill="url(#line-grad-right)" rx="1.5"/>
+
+    <!-- Center Geometric Nodes -->
+    <g class="pulse">
+      <!-- Central Diamond -->
+      <polygon points="0,-10 10,0 0,10 -10,0" fill="#38bdf8" />
+      <polygon points="0,-5 5,0 0,5 -5,0" fill="#ffffff" />
+    </g>
+    
+    <!-- Side Small Diamonds -->
+    <polygon points="-25,-5 -20,0 -25,5 -30,0" fill="#c084fc" />
+    <polygon points="25,-5 30,0 25,5 20,0" fill="#818cf8" />
+  </g>
 </svg>
