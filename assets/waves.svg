@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100">
+  <defs>
+    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .wave { animation: move-wave 15s linear infinite; }
+    .wave2 { animation: move-wave-reverse 20s linear infinite; opacity: 0.5; }
+    @keyframes move-wave {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-800px); }
+    }
+    @keyframes move-wave-reverse {
+      0% { transform: translateX(-800px); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+  <g>
+    <path class="wave2" fill="url(#wave-grad)" d="M0,50 Q100,0 200,50 T400,50 T600,50 T800,50 T1000,50 T1200,50 T1400,50 T1600,50 L1600,100 L0,100 Z"/>
+    <path class="wave" fill="url(#wave-grad)" d="M0,70 Q100,30 200,70 T400,70 T600,70 T800,70 T1000,70 T1200,70 T1400,70 T1600,70 L1600,100 L0,100 Z"/>
+  </g>
+</svg>

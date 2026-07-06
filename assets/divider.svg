@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20">
+  <defs>
+    <linearGradient id="div-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="70%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <style>
+    .glow-line { animation: pulse 2s ease-in-out infinite alternate; }
+    @keyframes pulse {
+      0% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+  </style>
+  <rect x="100" y="8" width="600" height="4" fill="url(#div-grad)" rx="2" class="glow-line" filter="url(#glow)"/>
+</svg>

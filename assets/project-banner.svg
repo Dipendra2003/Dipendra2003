@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+  <defs>
+    <linearGradient id="banner-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&amp;display=swap');
+    .title { font-family: 'Outfit', sans-serif; font-size: 36px; font-weight: 800; fill: #f8fafc; }
+    .subtitle { font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 400; fill: #cbd5e1; }
+    .badge-text { font-family: 'Outfit', sans-serif; font-size: 12px; font-weight: 600; fill: #10b981; }
+    .float { animation: float-anim 6s ease-in-out infinite; }
+    @keyframes float-anim {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+  </style>
+  <rect width="600" height="200" fill="url(#banner-bg)" rx="16" stroke="#334155" stroke-width="1"/>
+  <rect width="600" height="6" fill="url(#accent)" rx="3" />
+  
+  <g class="float" transform="translate(40, 80)">
+    <rect x="0" y="-35" width="48" height="48" rx="12" fill="#10b981" opacity="0.1"/>
+    <path d="M24,-25 L36,-5 L12,-5 Z" fill="#10b981" opacity="0.8"/>
+    <text class="title" x="70" y="-5">FarmLink AI</text>
+    <text class="subtitle" x="70" y="25">AI-Powered Agricultural Marketplace</text>
+    
+    <rect x="70" y="45" width="70" height="20" rx="4" fill="#10b981" opacity="0.1"/>
+    <text class="badge-text" x="80" y="59">FEATURED</text>
+  </g>
+
+  <!-- Abstract Graphic -->
+  <g transform="translate(420, 50)" opacity="0.6">
+    <circle cx="60" cy="50" r="45" fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="5 5" />
+    <circle cx="60" cy="50" r="25" fill="url(#accent)" opacity="0.4"/>
+    <rect x="20" y="10" width="80" height="80" fill="none" stroke="#38bdf8" stroke-width="1" rx="8" transform="rotate(45 60 50)"/>
+  </g>
+</svg>

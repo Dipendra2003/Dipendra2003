@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 150">
+  <defs>
+    <linearGradient id="footer-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&amp;display=swap');
+    .text { font-family: 'Outfit', sans-serif; font-size: 16px; fill: #cbd5e1; text-anchor: middle; font-weight: 600; }
+    .subtext { font-family: 'Outfit', sans-serif; font-size: 14px; fill: #94a3b8; text-anchor: middle; font-weight: 400; }
+    .heart { fill: #ef4444; animation: beat 1s infinite; transform-origin: center; }
+    .star { fill: #eab308; animation: spin 4s linear infinite; transform-origin: center; }
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+    }
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+  <rect width="800" height="150" fill="url(#footer-grad)" rx="20" />
+  
+  <g transform="translate(400, 65)">
+    <text class="text" x="-75" y="5">Designed &amp; Built with</text>
+    
+    <!-- Heart Icon -->
+    <g transform="translate(25, -6)">
+      <path class="heart" d="M0,4.5 C0,4.5 -1.5,1.5 -4,1.5 C-6.5,1.5 -8.5,3.5 -8.5,6 C-8.5,10.5 0,16 0,16 C0,16 8.5,10.5 8.5,6 C8.5,3.5 6.5,1.5 4,1.5 C1.5,1.5 0,4.5 0,4.5 Z" />
+    </g>
+    
+    <text class="text" x="90" y="5">by Dipendra</text>
+  </g>
+  
+  <text class="subtext" x="400" y="105">© 2026 Dipendra Kumar. All Rights Reserved.</text>
+</svg>

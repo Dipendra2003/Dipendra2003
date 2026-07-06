@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&amp;display=swap');
+    .title { font-family: 'Outfit', sans-serif; font-size: 56px; font-weight: 800; fill: url(#text-grad); filter: url(#glow); }
+    .subtitle { font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 600; fill: #cbd5e1; }
+    .tagline { font-family: 'Outfit', sans-serif; font-size: 16px; font-weight: 400; fill: #94a3b8; }
+    .blob { animation: float 8s ease-in-out infinite; transform-origin: center; }
+    .blob-reverse { animation: float-reverse 10s ease-in-out infinite; transform-origin: center; }
+    .code-line { animation: slide 3s ease-in-out infinite alternate; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-20px) scale(1.05); }
+    }
+    @keyframes float-reverse {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(20px) scale(0.95); }
+    }
+    @keyframes slide {
+      0% { width: 40px; }
+      100% { width: 120px; }
+    }
+  </style>
+  
+  <rect width="800" height="400" fill="url(#bg-grad)" rx="20" />
+  
+  <g opacity="0.4" filter="url(#glow)">
+    <circle cx="100" cy="100" r="120" fill="#38bdf8" class="blob" opacity="0.3"/>
+    <circle cx="700" cy="300" r="150" fill="#c084fc" class="blob-reverse" opacity="0.2"/>
+    <circle cx="400" cy="50" r="80" fill="#818cf8" class="blob" opacity="0.2"/>
+  </g>
+
+  <g transform="translate(60, 180)">
+    <text class="title" x="0" y="0">Dipendra Kumar</text>
+    <text class="subtitle" x="2" y="40">Full Stack Developer | AI Enthusiast</text>
+    <text class="subtitle" x="2" y="70">Open Source Learner | Software Engineer</text>
+    <text class="tagline" x="2" y="110">CS Engineering Student @ MMDU (Class of 2027)</text>
+  </g>
+
+  <g transform="translate(560, 100)" opacity="0.9" filter="url(#glow)">
+    <rect x="0" y="0" width="180" height="150" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+    <circle cx="15" cy="15" r="4" fill="#ef4444"/>
+    <circle cx="30" cy="15" r="4" fill="#eab308"/>
+    <circle cx="45" cy="15" r="4" fill="#22c55e"/>
+    
+    <rect x="15" y="40" width="80" height="8" rx="4" fill="#38bdf8" class="code-line" style="animation-delay: 0s;"/>
+    <rect x="15" y="60" width="120" height="8" rx="4" fill="#818cf8" class="code-line" style="animation-delay: 0.5s;"/>
+    <rect x="30" y="80" width="100" height="8" rx="4" fill="#c084fc" class="code-line" style="animation-delay: 1s;"/>
+    <rect x="30" y="100" width="60" height="8" rx="4" fill="#94a3b8" class="code-line" style="animation-delay: 1.5s;"/>
+    <rect x="15" y="120" width="90" height="8" rx="4" fill="#38bdf8" class="code-line" style="animation-delay: 2s;"/>
+  </g>
+</svg>
