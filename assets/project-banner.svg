@@ -24,14 +24,16 @@
   <rect width="600" height="200" fill="url(#banner-bg)" rx="16" stroke="#334155" stroke-width="1"/>
   <rect width="600" height="6" fill="url(#accent)" rx="3" />
   
-  <g class="float" transform="translate(40, 80)">
-    <rect x="0" y="-35" width="48" height="48" rx="12" fill="#10b981" opacity="0.1"/>
-    <path d="M24,-25 L36,-5 L12,-5 Z" fill="#10b981" opacity="0.8"/>
-    <text class="title" x="70" y="-5">FarmLink AI</text>
-    <text class="subtitle" x="70" y="25">AI-Powered Agricultural Marketplace</text>
-    
-    <rect x="70" y="45" width="70" height="20" rx="4" fill="#10b981" opacity="0.1"/>
-    <text class="badge-text" x="80" y="59">FEATURED</text>
+  <g transform="translate(40, 80)">
+    <g class="float">
+      <rect x="0" y="-35" width="48" height="48" rx="12" fill="#10b981" opacity="0.1"/>
+      <path d="M24,-25 L36,-5 L12,-5 Z" fill="#10b981" opacity="0.8"/>
+      <text class="title" x="70" y="-5">FarmLink AI</text>
+      <text class="subtitle" x="70" y="25">AI-Powered Agricultural Marketplace</text>
+      
+      <rect x="70" y="45" width="70" height="20" rx="4" fill="#10b981" opacity="0.1"/>
+      <text class="badge-text" x="80" y="59">FEATURED</text>
+    </g>
   </g>
 
   <!-- Abstract Graphic -->
