@@ -47,33 +47,27 @@
      ========================================== -->
 
 <div align="center">
-
-## 🌟 About Me
-
-<img src="assets/divider.svg" alt="Divider" width="60%" />
-
-<br/>
-<br/>
-
-<img src="https://ucxq02o6gtbsyvul.public.blob.vercel-storage.com/edited-image-GoSIvnelGi5fdoh6mQ9FmgWhA5Cp6J.jpg" alt="Dipendra Kumar" width="150" />
-
-### Dipendra Kumar
-
-*Haryana, India · B.Tech CSE @ MMDU · Class of 2027*
-
+  <h2>🌟 About Me</h2>
+  <img src="assets/divider.svg" alt="Divider" width="60%" />
 </div>
 
 <br/>
 
-I am a passionate **Full Stack Developer** who enjoys building modern web applications and AI-powered products. I have experience working with frontend and backend technologies to create scalable, responsive, and user-friendly applications.
-
-I enjoy learning new technologies and continuously improving my software engineering skills. I love building AI-powered products that solve real-world problems.
-
-**🎯 Mission** — Build impactful software that improves people's lives.
-
-**🚀 Career Goal** — Become a Software Engineer and AI Product Builder.
-
-**📚 Currently Learning** — System Design · Cloud Computing · AI Agents & LLMs · DevOps · Advanced DSA using Java
+<table align="center" border="0" width="100%" style="background-color: transparent;">
+  <tr>
+    <td width="30%" align="center">
+      <img src="https://ucxq02o6gtbsyvul.public.blob.vercel-storage.com/edited-image-GoSIvnelGi5fdoh6mQ9FmgWhA5Cp6J.jpg" alt="Dipendra Kumar" width="160" style="border-radius: 50%;" />
+    </td>
+    <td width="70%">
+      <h3>Dipendra Kumar</h3>
+      <p><em>Haryana, India · B.Tech CSE @ MMDU · Class of 2027</em></p>
+      <p>I am a passionate <b>Full Stack Developer</b> who enjoys building modern web applications and AI-powered products. I have experience working with frontend and backend technologies to create scalable, responsive, and user-friendly applications.</p>
+      <p><b>🎯 Mission:</b> Build impactful software that improves people's lives.</p>
+      <p><b>🚀 Goal:</b> Become a Software Engineer and AI Product Builder.</p>
+      <p><b>📚 Learning:</b> System Design · Cloud Computing · AI Agents · DevOps</p>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -160,123 +154,84 @@ I enjoy learning new technologies and continuously improving my software enginee
      ========================================== -->
 
 <div align="center">
-
-## 🚀 Featured Projects
-
-<img src="assets/divider.svg" alt="Divider" width="60%" />
-
+  <h2>🚀 Featured Projects</h2>
+  <img src="assets/divider.svg" alt="Divider" width="60%" />
 </div>
 
 <br/>
 
-<!-- 1. FarmLink AI -->
+<!-- 1. FarmLink AI (Featured Banner) -->
 <div align="center">
-  <img src="assets/project-banner.svg" alt="FarmLink AI Banner" width="100%" />
+  <a href="https://farmlinkai.vercel.app/" target="_blank">
+    <img src="assets/project-banner.svg" alt="FarmLink AI Banner" width="100%" />
+  </a>
 </div>
-
-### 🌾 1. FarmLink AI
-
-AI-powered agriculture platform connecting farmers, buyers and experts.
-
-**✨ Features:** AI Farming Assistant · Marketplace · Crop Recommendation · Weather Forecast · Pest Detection · Price Forecast · Analytics Dashboard · Role Based Access · Payments · Gemini AI
-
-**🛠 Tech Stack:** HTML, CSS, JavaScript, Tailwind CSS, Python, Flask, PostgreSQL, Gemini API, Razorpay, Git, GitHub, Vercel
-
-<p>
+<br/>
+<h3 align="center">🌾 FarmLink AI</h3>
+<p align="center">AI-powered agriculture platform connecting farmers, buyers and experts.</p>
+<p align="center"><b>✨ Features:</b> AI Farming Assistant · Marketplace · Crop Recommendation · Weather Forecast · Pest Detection · Price Forecast · Analytics Dashboard · Role Based Access · Payments · Gemini AI</p>
+<p align="center"><b>🛠 Tech Stack:</b> HTML, CSS, JavaScript, Tailwind CSS, Python, Flask, PostgreSQL, Gemini API, Razorpay, Git, GitHub, Vercel</p>
+<p align="center">
   <img src="https://img.shields.io/badge/Status-Production-22c55e?style=for-the-badge" alt="Status" />
   <a href="https://github.com/Dipendra2003/Farmlink-AI" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://farmlinkai.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-38bdf8?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
 </p>
 
----
+<br/>
 
-### 📚 2. StudyForge
-
-Smart educational learning platform with AI-powered productivity tools, study planner, note management, analytics, and learning dashboard.
-
-**🛠 Future Improvements:** Integrate collaborative study rooms and deeper NLP for automatic quiz generation.
-
-<p>
-  <a href="https://github.com/Dipendra2003/StudyForge" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Live_Demo-Coming_Soon-gray?style=for-the-badge" alt="Coming Soon" />
-</p>
-
----
-
-### 🎬 3. ClipForge
-
-AI-powered content creation platform for automatic short-video generation, subtitle creation, clip scoring, and workflow automation.
-
-<p>
-  <a href="https://github.com/Dipendra2003/ClipForge" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Live_Demo-Coming_Soon-gray?style=for-the-badge" alt="Coming Soon" />
-</p>
-
----
-
-### 🎫 4. EventHub
-
-Modern event management system with registrations, scheduling, ticket management, dashboards, and analytics.
-
-<p>
-  <a href="https://github.com/Dipendra2003/EventHub" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Live_Demo-Coming_Soon-gray?style=for-the-badge" alt="Coming Soon" />
-</p>
-
----
-
-### 👨‍💻 5. Portfolio
-
-Personal portfolio showcasing projects, skills, blogs, achievements, and contact information. Built with modern, responsive UI elements.
-
-<p>
-  <a href="https://github.com/Dipendra2003" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://portfolio-dipendra.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-38bdf8?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
-</p>
-
----
-
-### 🤖 6. AI Chatbot
-
-Modern conversational AI chatbot powered by LLM APIs with multi-session chat support and context awareness.
-
-<p>
-  <a href="https://github.com/Dipendra2003/AI-Chatbot" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Live_Demo-Coming_Soon-gray?style=for-the-badge" alt="Coming Soon" />
-</p>
-
----
-
-### 🏥 7. MediGuard
-
-Healthcare management platform with appointments, authentication, patient records, analytics, and dashboards.
-
-<p>
-  <a href="https://github.com/Dipendra2003/MediGuard" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Live_Demo-Coming_Soon-gray?style=for-the-badge" alt="Coming Soon" />
-</p>
-
----
-
-### 🛒 8. GharMart
-
-Modern real estate marketplace with property listings, advanced search, and user dashboard.
-
-<p>
-  <a href="https://github.com/Dipendra2003/GharMart" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Live_Demo-Coming_Soon-gray?style=for-the-badge" alt="Coming Soon" />
-</p>
-
----
-
-### 🎁 9. Bubu Wishes
-
-Interactive AI-powered birthday wishes platform with countdowns, animations, media sharing, and personalized greeting cards.
-
-<p>
-  <a href="https://github.com/Dipendra2003/Bubu-Wishes" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Live_Demo-Coming_Soon-gray?style=for-the-badge" alt="Coming Soon" />
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📚 StudyForge</h3>
+      <p>Smart educational learning platform with AI-powered productivity tools, study planner, note management, analytics, and learning dashboard.</p>
+      <p><i>Future:</i> Collaborative study rooms & NLP quiz generation.</p>
+      <a href="https://github.com/Dipendra2003/StudyForge" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎬 ClipForge</h3>
+      <p>AI-powered content creation platform for automatic short-video generation, subtitle creation, clip scoring, and workflow automation.</p>
+      <br/>
+      <a href="https://github.com/Dipendra2003/ClipForge" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎫 EventHub</h3>
+      <p>Modern event management system with registrations, scheduling, ticket management, dashboards, and analytics.</p>
+      <a href="https://github.com/Dipendra2003/EventHub" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>👨‍💻 Portfolio</h3>
+      <p>Personal portfolio showcasing projects, skills, blogs, achievements, and contact information. Built with modern, responsive UI elements.</p>
+      <a href="https://github.com/Dipendra2003" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+      <a href="https://portfolio-dipendra.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-38bdf8?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 AI Chatbot</h3>
+      <p>Modern conversational AI chatbot powered by LLM APIs with multi-session chat support and context awareness.</p>
+      <a href="https://github.com/Dipendra2003/AI-Chatbot" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏥 MediGuard</h3>
+      <p>Healthcare management platform with appointments, authentication, patient records, analytics, and dashboards.</p>
+      <a href="https://github.com/Dipendra2003/MediGuard" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛒 GharMart</h3>
+      <p>Modern real estate marketplace with property listings, advanced search, and user dashboard.</p>
+      <a href="https://github.com/Dipendra2003/GharMart" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎁 Bubu Wishes</h3>
+      <p>Interactive AI-powered birthday wishes platform with countdowns, animations, media sharing, and personalized greeting cards.</p>
+      <a href="https://github.com/Dipendra2003/Bubu-Wishes" target="_blank"><img src="https://img.shields.io/badge/Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -287,68 +242,36 @@ Interactive AI-powered birthday wishes platform with countdowns, animations, med
 <br/>
 
 <!-- ==========================================
-     INTERNSHIPS
+     EXPERIENCE & EDUCATION
      ========================================== -->
 
 <div align="center">
-
-## 💼 Internships
-
-<img src="assets/divider.svg" alt="Divider" width="60%" />
-
+  <h2>💼 Experience & 🎓 Education</h2>
+  <img src="assets/divider.svg" alt="Divider" width="60%" />
 </div>
 
 <br/>
 
-### 1. CodSoft
-**Role:** Web Development Intern  
-**Timeline:** May 2025 – June 2025  
-Worked on responsive websites using HTML, CSS, JavaScript.
-
-### 2. KVCH
-**Role:** Java Intern  
-**Timeline:** Nov 2023 – Dec 2023  
-Developed Java-based E-commerce applications.
-
-### 3. ICE Technology Lab
-**Role:** Web Technology Intern  
-**Timeline:** Dec 2022 – Jan 2023  
-Built frontend applications using HTML, CSS, JavaScript.
-
-<br/>
-
-<!-- ==========================================
-     EDUCATION & CERTIFICATIONS
-     ========================================== -->
-
-<div align="center">
-
-## 🎓 Education & 🏆 Certifications
-
-<img src="assets/divider.svg" alt="Divider" width="60%" />
-
-</div>
-
-<br/>
-
-### Education
-
-- **B.Tech CSE** — Maharishi Markandeshwar (Deemed to be University) · *CGPA: 7.43*
-- **Diploma CSE** — Government Polytechnic Gulzarbagh · *CGPA: 8.02*
-- **12th Grade** — *Percentage: 76.8%*
-- **10th Grade** — *Percentage: 64.2%*
-
-### Certifications
-
-- **CodSoft Web Development Internship**
-- **KVCH Java Internship**
-- **ICE Technology Lab Internship**
-
-<br/>
-
-<div align="center">
-  <img src="assets/waves.svg" alt="Waves" width="100%" />
-</div>
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Experience</h3>
+      <ul>
+        <li><b>CodSoft</b> — Web Dev Intern (May '25)</li>
+        <li><b>KVCH</b> — Java Intern (Nov '23)</li>
+        <li><b>ICE Technology Lab</b> — Web Intern (Dec '22)</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Education & Certifications</h3>
+      <ul>
+        <li><b>B.Tech CSE</b> — MMDU (Class of '27)</li>
+        <li><b>Diploma CSE</b> — Govt. Poly Gulzarbagh</li>
+        <li><b>Certifications</b> — Java, Web Development</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -357,40 +280,16 @@ Built frontend applications using HTML, CSS, JavaScript.
      ========================================== -->
 
 <div align="center">
+  <h2>📊 GitHub Analytics</h2>
+  <img src="assets/divider.svg" alt="Divider" width="60%" />
 
-## 📊 GitHub Analytics
+  <br/>
+  <br/>
 
-<img src="assets/divider.svg" alt="Divider" width="60%" />
-
-<br/>
-<br/>
-
-
-
-<!-- GitHub Stats -->
-<a href="https://github.com/Dipendra2003">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dipendra2003&show_icons=true&theme=tokyonight&bg_color=0f172a&title_color=38bdf8&text_color=94a3b8&icon_color=c084fc&hide_border=true&count_private=true" alt="GitHub Stats" width="49%" />
-</a>
-<a href="https://github.com/Dipendra2003">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dipendra2003&theme=tokyonight&background=0f172a&ring=38bdf8&fire=c084fc&currStreakLabel=c084fc&sideLabels=94a3b8&hide_border=true" alt="GitHub Streak" width="49%" />
-</a>
-
-<br/>
-<br/>
-
-<!-- Top Languages -->
-<a href="https://github.com/Dipendra2003">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dipendra2003&layout=compact&theme=tokyonight&bg_color=0f172a&title_color=38bdf8&text_color=94a3b8&hide_border=true" alt="Top Languages" width="49%" />
-</a>
-
-<br/>
-<br/>
-
-<!-- GitHub Trophies -->
-<a href="https://github.com/Dipendra2003">
-  <img src="https://github-profile-trophy.vercel.app/?username=Dipendra2003&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" width="100%" />
-</a>
-
+  <!-- GitHub Streak Stats -->
+  <a href="https://github.com/Dipendra2003">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dipendra2003&theme=tokyonight&background=0f172a&ring=38bdf8&fire=c084fc&currStreakLabel=c084fc&sideLabels=94a3b8&hide_border=true" alt="GitHub Streak" />
+  </a>
 </div>
 
 <br/>
