@@ -163,7 +163,9 @@
      ========================================== -->
 
 <div align="center">
-  <img src="assets/projects/farmlink-banner.svg" alt="FarmLink AI Banner" width="100%" />
+  <a href="https://farmlinkai.vercel.app/">
+    <img src="assets/projects/farmlink-banner.svg" alt="FarmLink AI Banner" width="100%" />
+  </a>
   
   <br/><br/>
   
