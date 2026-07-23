@@ -1,0 +1,33 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9a3412" />
+      <stop offset="100%" stop-color="#431407" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ea580c" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#glow)"/>
+  
+  <circle cx="750" cy="50" r="160" fill="#f97316" opacity="0.1" />
+  <circle cx="50" cy="400" r="160" fill="#fdba74" opacity="0.1" />
+  
+  <g filter="url(#shadow)" transform="translate(340, 110)">
+    <rect width="120" height="120" rx="28" fill="#ffffff" opacity="0.05"/>
+    <rect width="120" height="120" rx="28" fill="none" stroke="#fdba74" stroke-width="2" opacity="0.5"/>
+    <rect x="30" y="35" width="60" height="55" rx="8" fill="none" stroke="#fdba74" stroke-width="6"/>
+    <line x1="30" y1="55" x2="90" y2="55" stroke="#fdba74" stroke-width="6"/>
+    <line x1="45" y1="25" x2="45" y2="40" stroke="#fdba74" stroke-width="6" stroke-linecap="round"/>
+    <line x1="75" y1="25" x2="75" y2="40" stroke="#fdba74" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <text x="400" y="310" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="56" fill="#ffffff" text-anchor="middle" letter-spacing="-1">EventHub</text>
+  <text x="400" y="360" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="24" fill="#ffedd5" text-anchor="middle" opacity="0.9">Modern Event Management</text>
+</svg>

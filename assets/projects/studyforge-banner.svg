@@ -1,0 +1,32 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#312e81" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#glow)"/>
+  
+  <circle cx="750" cy="100" r="150" fill="#6366f1" opacity="0.1" />
+  <circle cx="50" cy="350" r="200" fill="#818cf8" opacity="0.1" />
+  
+  <g filter="url(#shadow)" transform="translate(340, 110)">
+    <rect width="120" height="120" rx="28" fill="#ffffff" opacity="0.05"/>
+    <rect width="120" height="120" rx="28" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.5"/>
+    <path d="M25 45 L60 25 L95 45 L60 65 Z" fill="#818cf8"/>
+    <path d="M25 45 L25 70 L60 90 L60 65 Z" fill="#6366f1"/>
+    <path d="M95 45 L95 70 L60 90 L60 65 Z" fill="#4f46e5"/>
+  </g>
+  
+  <text x="400" y="310" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="56" fill="#ffffff" text-anchor="middle" letter-spacing="-1">StudyForge</text>
+  <text x="400" y="360" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="24" fill="#a5b4fc" text-anchor="middle" opacity="0.9">Smart Educational Platform</text>
+</svg>

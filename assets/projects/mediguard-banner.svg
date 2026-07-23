@@ -1,0 +1,29 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#083344" />
+      <stop offset="100%" stop-color="#042f2e" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#glow)"/>
+  
+  <circle cx="150" cy="150" r="200" fill="#14b8a6" opacity="0.1" />
+  
+  <g filter="url(#shadow)" transform="translate(340, 110)">
+    <rect width="120" height="120" rx="28" fill="#ffffff" opacity="0.05"/>
+    <rect width="120" height="120" rx="28" fill="none" stroke="#2dd4bf" stroke-width="2" opacity="0.5"/>
+    <path d="M45 60 L25 60 L35 40 L55 80 L65 30 L80 60 L95 60" fill="none" stroke="#2dd4bf" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <text x="400" y="310" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="56" fill="#ffffff" text-anchor="middle" letter-spacing="-1">MediGuard</text>
+  <text x="400" y="360" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="24" fill="#99f6e4" text-anchor="middle" opacity="0.9">Healthcare Management System</text>
+</svg>

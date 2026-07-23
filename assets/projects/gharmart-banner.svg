@@ -1,0 +1,29 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350f" />
+      <stop offset="100%" stop-color="#451a03" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#glow)"/>
+  
+  <circle cx="750" cy="350" r="200" fill="#f59e0b" opacity="0.1" />
+  
+  <g filter="url(#shadow)" transform="translate(340, 110)">
+    <rect width="120" height="120" rx="28" fill="#ffffff" opacity="0.05"/>
+    <rect width="120" height="120" rx="28" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+    <path d="M60 25 L20 60 L30 60 L30 95 L90 95 L90 60 L100 60 Z" fill="#fbbf24"/>
+  </g>
+  
+  <text x="400" y="310" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="56" fill="#ffffff" text-anchor="middle" letter-spacing="-1">GharMart</text>
+  <text x="400" y="360" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="24" fill="#fde68a" text-anchor="middle" opacity="0.9">Real Estate Marketplace</text>
+</svg>
