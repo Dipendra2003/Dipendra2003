@@ -75,8 +75,8 @@
       <g transform="translate(20, 60)">
         <text class="code-text" x="0" y="0"><tspan class="code-keyword">const</tspan> dev = <tspan class="code-keyword">new</tspan> Developer();</text>
         
-        <text class="code-text" x="0" y="25">dev.<tspan class="code-func">setName</tspan>(<tspan class="code-string">"Dipendra"</tspan>);</text>
-        <text class="code-text" x="0" y="50">dev.<tspan class="code-func">setRole</tspan>(<tspan class="code-string">"Full Stack"</tspan>);</text>
+        <text class="code-text" x="0" y="25">dev.<tspan class="code-func">setName</tspan>(<tspan class="code-string">"Dipendra Kumar"</tspan>);</text>
+        <text class="code-text" x="0" y="50">dev.<tspan class="code-func">setRole</tspan>(<tspan class="code-string">"Full Stack Developer"</tspan>);</text>
         
         <text class="code-text" x="0" y="75">dev.<tspan class="code-func">addSkills</tspan>([</text>
         <text class="code-text" x="20" y="100"><tspan class="code-string">"React"</tspan>, <tspan class="code-string">"Node.js"</tspan>, <tspan class="code-string">"AI"</tspan></text>
